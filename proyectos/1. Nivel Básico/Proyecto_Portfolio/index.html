@@ -9,16 +9,39 @@
     </head>
     <body>
         <header>
+            <h1>Mi portfolio</h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
                 </ul>
                 <button class="github">My Projects</button>
             </nav>
         </header>
+        <main>
+            <section id="projects">
+                <h2>Proyectos</h2>
+                <p>Aquí se mostrarán los proyectos que hayas desarrollado.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, nisi, dolores earum, recusandae nemo quia eaque porro a expedita hic incidunt officiis eum nostrum minus accusantium! Placeat ab tempore ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis voluptates dolores est? Sed accusamus nulla eius quos cum natus delectus, dolorem laudantium nemo, sunt commodi eum provident maxime hic fugiat. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit, sapiente cumque unde ipsum debitis ipsa, quae enim pariatur odio veritatis maiores repudiandae vitae rerum fuga eos ea ipsam. Earum.</p>
+            </section>
+            <section id="blog">
+                <h2>Blog</h2>
+            </section>
+            <section id="about">
+                <h2>About</h2>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <form id="form" class="topBefore">
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="text" placeholder="E-MAIL">
+                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                    <input id="submit" type="submit" value="GO!">
+                </form>
+            </section>
+        </main>
         <footer>
             <p><!-- Añadiendo el año automáticamente con javascript, se puede omitir y ponerlo manualmente -->
                 © <span id="anyo_actual"></span> Desarrollado por
